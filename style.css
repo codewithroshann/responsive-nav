@@ -96,6 +96,21 @@ animation:slideBottom 1s ease forwards;
     transition: height 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 10px;
 }
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     width:70%;
+        margin: 5rem auto;
+   animation: slideTop 1s ease forwards;
+}
+
+.hero-section p{
+    margin-top:10px;
+    text-align: center;
+}
+
 /*RESPONSIVE SECTION 22*/
 @media screen and (max-width:670px) {
 
@@ -146,16 +161,6 @@ animation:slideBottom 1s ease forwards;
 
 }
 
-.hero-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 50%;
-    width: 50%;
-    margin: auto;
-   animation: slideTop 1s ease forwards;
-}
 
 /*ANIMATION*/
 
